@@ -45,6 +45,7 @@ Delete directory test/ from bucket 'test-bucket':
 ### Delete bucket
 - Using s3 : `aws s3 rb s3://test-bucket/`
 
-``` Bucket can only be delete when it is empty. If you try to delete non-empty bucket, following error is received :
+``` 
+Bucket can only be delete when it is empty. If you try to delete non-empty bucket, following error is received :
 An error occurred (BucketNotEmpty) when calling the DeleteBucket operation: The bucket you tried to delete is not empty
 ```
